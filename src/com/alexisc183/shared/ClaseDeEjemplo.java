@@ -4,4 +4,8 @@ public class ClaseDeEjemplo {
 	public int obtenerUno() {
 		return 1;
 	}
+	
+	public int obtenerDos() {
+		return 2;
+	}
 }
