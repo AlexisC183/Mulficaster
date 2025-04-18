@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo -e $(date) | tee ultimoPush.txt
+                echo 'Building...'
             }
         }
     }
