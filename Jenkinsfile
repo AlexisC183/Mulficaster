@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'mvn --version'
+                echo -e $(date) | tee ultimoPush.txt
             }
         }
     }
